@@ -1,0 +1,16 @@
+<div class="d-flex card-header header-block">
+  <button class="header-button add-button mr-auto bd-highlight"
+          (click)="openDialog()">
+    Добавить город
+  </button>
+  <button class="header-button on-off-button bd-highlight mr-2"
+          (click)="swith(true)"
+          [disabled]="!!weathersDataService.getIsUpdate">
+    старт
+  </button>
+  <button class="header-button on-off-button bd-highlight"
+          [disabled]="!weathersDataService.getIsUpdate"
+          (click)="swith(false)">
+    стоп
+  </button>
+</div>

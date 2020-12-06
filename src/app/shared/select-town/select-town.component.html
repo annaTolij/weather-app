@@ -1,0 +1,11 @@
+<div mat-dialog-content>
+  <p>Добавить город</p>
+  <mat-form-field>
+    <mat-label>Выберете город</mat-label>
+    <input matInput [(ngModel)]="townName" />
+    <mat-hint [align]="start" class="error-message" *ngIf="isFind">Не найдено</mat-hint>
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="selectTown()">Добавить</button>
+</div>

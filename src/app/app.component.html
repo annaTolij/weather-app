@@ -1,0 +1,7 @@
+<app-header></app-header>
+<div class="d-flex cards-block flex-wrap p-4">
+  <ng-container *ngFor="let weather of weathersDataService.getWeathers">
+    <app-weather-card class="m-2" [cardInfo]="weather"></app-weather-card>
+  </ng-container>
+</div>
+<app-footer class="fixed-bottom"></app-footer>

@@ -1,0 +1,13 @@
+<mat-card class="d-flex justify-content-center align-items-center card-block">
+  <div>
+    <div class="d-flex justify-content-center p-2">
+      <span class="card-text">{{ cardInfo?.name }}</span>
+    </div>
+    <div class="d-flex justify-content-center p-2">
+      <img [src]="condition" class="condition-icon" />
+    </div>
+    <div class="d-flex justify-content-center p-2">
+      <span class="card-text">{{ cardInfo?.main.temp | temp }}°</span>
+    </div>
+  </div>
+</mat-card>
