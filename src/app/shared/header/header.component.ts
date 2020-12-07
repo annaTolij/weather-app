@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { SelectTownComponent } from '../select-town/select-town.component';
 import { WeathersDataService } from 'src/app/services/weathers-data.service';
-import { WetherData } from 'src/app/model/wetherData.model';
+import { WetherData } from 'src/app/model/weather-data.model';
 
 @Component({
   selector: 'app-header',
