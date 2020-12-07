@@ -1,2 +1,3 @@
 # weather-app
-### APP for traking weather
+### APP for tracking weather
+### To run in IE: ng serve --configuration es5
