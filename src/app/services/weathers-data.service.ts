@@ -2,7 +2,7 @@ import { Injectable, Inject } from '@angular/core';
 import { Observable } from 'rxjs';
 import { LOCAL_STORAGE, StorageService } from 'ngx-webstorage-service';
 import { WeatherDataApiService } from './weather-data-api.service';
-import { WetherData, InfoList } from '../model/wetherData.model';
+import { WetherData, InfoList } from '../model/weather-data.model';
 
 @Injectable({ providedIn: 'root' })
 export class WeathersDataService {

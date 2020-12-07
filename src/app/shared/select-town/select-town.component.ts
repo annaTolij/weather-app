@@ -1,7 +1,7 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { WeatherDataApiService } from 'src/app/services/weather-data-api.service';
-import { InfoList } from 'src/app/model/wetherData.model';
+import { InfoList } from 'src/app/model/weather-data.model';
 
 @Component({
   selector: 'app-select-town',

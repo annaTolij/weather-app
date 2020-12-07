@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { InfoList } from '../model/wetherData.model';
+import { InfoList } from '../model/weather-data.model';
 
 @Injectable({ providedIn: 'root' })
 export class WeatherDataApiService {
